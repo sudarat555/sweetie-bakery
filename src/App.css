@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti&family=IBM+Plex+Sans+Thai:wght@100;500&family=Kanit:wght@300&display=swap');
+
+*{
+  font-family: 'Kanit', sans-serif;
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+.btn-buy{
+  width: 80%;
+}
+
+.header{
+  color: rgb(201, 101, 148);
+}
+
+.item{
+  width: 80%;
+  height: 60%;
+  align-items: center;
+}
+
+cardbox.box{
+  width: 25%;
+  height: 25%;
+}
+
+.mr{
+  margin-right: 5px;
+}
+
+.mt{
+  margin-top: 20px;
+}
+
+.img{
+  width: 300;
+  height: 400;
+}

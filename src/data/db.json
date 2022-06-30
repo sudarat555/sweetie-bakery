@@ -1,0 +1,126 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Ferrero Cake",
+      "unitPrice": 650,
+      "thumbnail": "/images/1.jpg"
+    },
+    {
+      "id": 2,
+      "productName": "Kitkat Caramel Cake",
+      "unitPrice": 600,
+      "thumbnail": "/images/2.jpg"
+    },
+    {
+      "id": 3,
+      "productName": "Unicorn Rainbow Cake",
+      "unitPrice": 590,
+      "thumbnail": "/images/3.jpg"
+    },
+    {
+      "id": 4,
+      "productName": "Strawberry Rainbow Cake",
+      "unitPrice": 590,
+      "thumbnail": "/images/4.jpg"
+    },
+    {
+      "id": 5,
+      "productName": "Fruities Cake",
+      "unitPrice": 550,
+      "thumbnail": "/images/5.jpg"
+    },
+    {
+      "id": 6,
+      "productName": "Carrot Cake",
+      "unitPrice": 450,
+      "thumbnail": "/images/6.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "orderedDate": "2022-06-17T09:29:28.813Z",
+      "totalPrice": 1630,
+      "orders": [
+        {
+          "product": {
+            "id": 3,
+            "productName": "Unicorn Rainbow Cake",
+            "unitPrice": 590,
+            "thumbnail": "/images/3.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 4,
+            "productName": "Strawberry Rainbow Cake",
+            "unitPrice": 590,
+            "thumbnail": "/images/4.jpg"
+          },
+          "quantity": 1
+        },
+        {
+          "product": {
+            "id": 6,
+            "productName": "Carrot Cake",
+            "unitPrice": 450,
+            "thumbnail": "/images/6.jpg"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "orderedDate": "2022-06-17T09:29:49.825Z",
+      "totalPrice": 650,
+      "orders": [
+        {
+          "product": {
+            "id": 1,
+            "productName": "Ferrero Cake",
+            "unitPrice": 650,
+            "thumbnail": "/images/1.jpg"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "orderedDate": "2022-06-30T06:49:05.768Z",
+      "totalPrice": 2960,
+      "orders": [
+        {
+          "product": {
+            "id": 3,
+            "productName": "Unicorn Rainbow Cake",
+            "unitPrice": 590,
+            "thumbnail": "/images/3.jpg"
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id": 4,
+            "productName": "Strawberry Rainbow Cake",
+            "unitPrice": 590,
+            "thumbnail": "/images/4.jpg"
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id": 2,
+            "productName": "Kitkat Caramel Cake",
+            "unitPrice": 600,
+            "thumbnail": "/images/2.jpg"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
